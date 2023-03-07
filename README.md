@@ -15,47 +15,31 @@ This is a Laravel application that allows users to login either using the form o
 - PHP version 8.1 or higher
 - Composer Installed.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Default Login Details
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Email: alvin@example.com
+- Password: password.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Functionalities
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Users can log in either using the form or by social login.
+- Users will be redirected to a dashboard upon successful login.
+- The dashboard will greet the user apropriately depending on time of day. 
+- The user would also be shown which way the used to login. For example, if use logs in via Google, it will show them on dashboard that they logged in using Google
 
-## Laravel Sponsors
+### Installation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Clone the repository
+- Run `composer install` to install dependencies
+- Create a copy of the `.env.example` file and rename it to `.env`
+- Generate an application key using the command `php artisan key:generate`
+- Set up your database connection in the `.env` file
+- Run the database migrations using the command `php artisan migrate`
+- (Optional) Seed the database with test data using the command `php artisan db:seed`
+- Start the application using the command `php artisan serve`
+- Add the respective client IDs, secret keys and URIs for the social logins (Google, Facebook and Twitter)
+- Locate their (Google, Facebook and Twitter) API portals, create accounts and obtain these details, and input the details in the `.env` file.
 
 ## License
 
