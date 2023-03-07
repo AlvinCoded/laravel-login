@@ -1,0 +1,177 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #B0BEC5 !important;
+
+}
+input[type="password"]{
+    border-radius: 1rem;
+    background-color: #ececec;
+}
+input[type="text"]{
+    border-radius: 1rem;
+    background-color: #ececec;
+}
+input[type="password"]::placeholder,input[type="text"]::placeholder{
+    font-weight: 400;
+}
+button{
+    border-radius: 1rem;
+}
+.card0 {
+    /* box-shadow: 0px 4px 8px 0px #757575; */
+    border-radius: 0px;
+    /* height: 50rem; */
+}
+
+.card2 {
+    margin: 0px 40px;
+}
+
+.my-logo{
+    margin-top: 20px;
+    width: 13rem;
+    height: 5rem;
+}
+.the-form {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+}
+.show-password{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 2.5rem;
+    opacity: 0.6;
+    top: 29%;
+    cursor: pointer;
+}
+.image {
+    width: 360px;
+    height: 280px;
+}
+
+/* .bg-backg2 {
+    background-color: transparent;
+background-image: url('../materials/annie-spratt-QYcSeY7vuZM-unsplash\ 1.svg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: none;
+} */
+.overlapper{
+    z-index: 5;
+    position: absolute;
+    right:15rem;
+    background-color: #fff;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.icon-group {
+    border: 1px solid #ccc;
+    border-radius: 1.2rem;
+    width: 6rem;
+}
+
+.line {
+    height: 1px;
+    width: 30%;
+    background-color: #000000;
+    margin-top: 10px;
+}
+.login-btn{
+    width: 100%;
+    border-radius: 1rem !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
+}
+
+.or {
+    /* width: 10%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.lil-note{font-size: 10px;}
+.register-link{
+font-size: 10px;
+padding-left: 1rem;
+}
+.text-sm {
+    font-size: 14px !important;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+input, textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px;
+    }
+}
+.social-icon{
+    width: 2rem;
+    height: 2rem;
+}
+        .bg-backg223 {
+        background-color: transparent;
+        background-image: url('../materials/resource-database-1RprLbsojbs-unsplash.jpg');
+        /* background-image: url("/materials/annie-spratt-QYcSeY7vuZM-unsplash.svg"); */
+        background-position: center;
+        background-size: cover;
+        border-radius: none;
+        background-repeat: no-repeat;
+    }
